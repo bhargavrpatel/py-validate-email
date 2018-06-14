@@ -1,0 +1,3 @@
+recursive-include py_validate_email *
+include README.rst
+include CHANGES.rst

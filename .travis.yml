@@ -1,0 +1,19 @@
+language: python
+
+python:
+    - "2.7"
+    - "pypy"
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "pypy3"
+
+install:
+  - make install
+
+script:
+  - make test
+  - make lint
+
+after_success:
+  - coveralls
