@@ -9,3 +9,4 @@
 # Copyright (c) 2018, Bhargav Patel <ziikutv@gmail.com>
 
 from py_validate_email.version import __version__  # NOQA
+from py_validate_email.validator import is_email_valid
